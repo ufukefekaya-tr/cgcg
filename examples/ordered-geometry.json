@@ -1,0 +1,109 @@
+{
+  "machineProfile": {
+    "id": "demo-millimetre",
+    "name": "Synthetic generic XY profile",
+    "controllerType": "generic",
+    "table": {
+      "width": 1000,
+      "height": 1000
+    },
+    "softLimits": {
+      "xMin": 0,
+      "xMax": 1000,
+      "yMin": 0,
+      "yMax": 1000,
+      "zMin": -50,
+      "zMax": 100
+    },
+    "workOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "safeHeight": 5,
+    "workCoordinate": "G54",
+    "rapidSpeed": 10000,
+    "defaultFeedRate": 1000,
+    "operatorVerifiedMachineZero": null,
+    "mCodes": {
+      "pourOn": "M04",
+      "pourOff": "M05",
+      "washOn": "M32",
+      "washOff": "M33",
+      "blowOn": "M59",
+      "blowOff": "M58",
+      "coolantOn": "M08",
+      "coolantOff": "M09",
+      "programEnd": "M30",
+      "spindleCW": "M03"
+    },
+    "gCodes": {
+      "rapid": "G00",
+      "linear": "G01",
+      "arcCW": "G02",
+      "arcCCW": "G03",
+      "absolute": "G90",
+      "relative": "G91",
+      "dwell": "G04",
+      "machineCoord": "G53"
+    }
+  },
+  "use2AxisOnly": true,
+  "geometries": [
+    {
+      "geometry": {
+        "patternType": "circle",
+        "width": 120,
+        "height": 120,
+        "gridRows": 1,
+        "gridCols": 2,
+        "gapX": 80,
+        "gapY": 90,
+        "startX": 100,
+        "startY": 100,
+        "cornerRadius": 0,
+        "radius": 50
+      },
+      "process": {
+        "feedRate": 1000,
+        "dryRun": true,
+        "use2AxisOnly": true,
+        "preDwell": 0,
+        "postDwell": 0,
+        "washEnabled": false,
+        "blowEnabled": false,
+        "earlyCloseEnabled": false,
+        "prePourPrimingEnabled": false,
+        "forceExplicitF": true
+      },
+      "sequence": 0
+    },
+    {
+      "geometry": {
+        "patternType": "rectangleGrid",
+        "width": 200,
+        "height": 140,
+        "gridRows": 2,
+        "gridCols": 2,
+        "gapX": 60,
+        "gapY": 60,
+        "startX": 400,
+        "startY": 150,
+        "cornerRadius": 0
+      },
+      "process": {
+        "feedRate": 1000,
+        "dryRun": true,
+        "use2AxisOnly": true,
+        "preDwell": 0,
+        "postDwell": 0,
+        "washEnabled": false,
+        "blowEnabled": false,
+        "earlyCloseEnabled": false,
+        "prePourPrimingEnabled": false,
+        "forceExplicitF": true
+      },
+      "sequence": 1
+    }
+  ]
+}

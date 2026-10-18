@@ -1,0 +1,76 @@
+{
+  "synthetic": true,
+  "operatorReviewRequired": true,
+  "files": [
+    {
+      "file": "examples/rectangle-grid.json",
+      "sha256": "ece802a8035e5a6f456b600633fb227f1afcad0cefbbf1482586832e72427b6c"
+    },
+    {
+      "file": "examples/rectangle-grid.nc",
+      "sha256": "9dba7c785101a9bcb85457cd5b04b399de2e76a7ada8b2cb32d3b943c0d4e855"
+    },
+    {
+      "file": "examples/circles.json",
+      "sha256": "407b28064a6a045ce0c20d875d3105165b7cb81dbc9e66f8c78df18b38214f6b"
+    },
+    {
+      "file": "examples/circles.nc",
+      "sha256": "cb925c6e21f7e21cce06464074087228384554066e129e2cb71ce68f9c827409"
+    },
+    {
+      "file": "examples/linear-paths.json",
+      "sha256": "47b322333a354705a0c7e454eced3d9a045d0169f6a19a3a80fd4ee1bed23247"
+    },
+    {
+      "file": "examples/linear-paths.nc",
+      "sha256": "b13e941305be8b36b0cab47ee64efe61e7a7e6c5011f0547ec489575c75cdee0"
+    },
+    {
+      "file": "examples/ordered-geometry.json",
+      "sha256": "30527ef3251ff1a91bff2fff70a3c60657dd9a1d81ec582b82654022d0b1e9a9"
+    },
+    {
+      "file": "examples/ordered-geometry.nc",
+      "sha256": "a67d7d2608dacb34fcdf807073ff306ac79bb103b53c11f2c16e8dfbd60cd685"
+    }
+  ],
+  "examples": [
+    {
+      "id": "rectangle-grid",
+      "lines": 110,
+      "segments": 52,
+      "validation": "static-checks-pass",
+      "limitations": [
+        "The initial approach is omitted until an absolute XY start is known."
+      ]
+    },
+    {
+      "id": "circles",
+      "lines": 64,
+      "segments": 466,
+      "validation": "static-checks-pass",
+      "limitations": [
+        "The initial approach is omitted until an absolute XY start is known."
+      ]
+    },
+    {
+      "id": "linear-paths",
+      "lines": 82,
+      "segments": 25,
+      "validation": "static-checks-pass",
+      "limitations": [
+        "The initial approach is omitted until an absolute XY start is known."
+      ]
+    },
+    {
+      "id": "ordered-geometry",
+      "lines": 79,
+      "segments": 178,
+      "validation": "static-checks-pass",
+      "limitations": [
+        "The initial approach is omitted until an absolute XY start is known."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+CGCG
+Copyright 2026 Ufuk Efe Kaya
+SPDX-License-Identifier: MIT OR Apache-2.0
+
+Original source, reconstructed user interface, synthetic examples,
+documentation and example screenshots are available under MIT or Apache-2.0,
+at the recipient's option.
+
+The source engine was recovered from readable deployed ES modules. Original
+TypeScript types and React sources were unavailable; the public frontend is a
+new implementation of the documented workflow. See docs/RECOVERY.md.
+
+No production databases, uploads, credentials, customer jobs, machine presets,
+PM2 state or private repository history is distributed.
+
+Independently installed third-party libraries retain their own licenses.
+These include React and React DOM (MIT), Express (MIT), CORS (MIT),
+Helmet (MIT), Multer (MIT), Vite (MIT) and the Node.js runtime and its
+included SQLite components. This notice does not relicense those components.
